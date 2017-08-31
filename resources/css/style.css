@@ -2,9 +2,42 @@
   font-family: Verdana;
 }
 
+body {
+  background-color: #000000;
+  text-align: center;
+}
+
 h1 {
   font-weight: normal;
   font-size: 50px;
   color: #ffffff;
-  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+a {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+img:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  text-align: right;
 }
